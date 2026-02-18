@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+            background: #f4f6f9;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 220px;
+            background: linear-gradient(180deg, #2b5876, #4e4376);
+            color: white;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 10px;
+            display: block;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 40px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .profile h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+            color: #4e4376;
+        }
+
+        .section ul {
+            margin-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 8px;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Portfolio</h2>
+        <ul>
+            <li><a href="#objective">Career Objective</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#tools">Tools & Technologies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+
+        <div class="profile">
+            <img src="C:\Users\GIRLIE\Downloads\img\Harley.jpg" alt="Profile Picture">
+            <h1>Harley Jade M. lim</h1>
+            <p>Aspiring Web Developer</p>
+        </div>
+
+        <div class="section" id="objective">
+            <h2>Career Objective</h2>
+            <p>
+                To obtain a challenging position in a reputable organization where I can
+                utilize my technical skills and continuously learn new technologies
+                to contribute to the growth of the company.
+            </p>
+        </div>
+
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>School: Madridejos Community College</li>
+                <li>Course: Bachelor of Science in Information Technology (BSIT)</li>
+                <li>Year Level: 3rd Year College</li>
+            </ul>
+        </div>
+
+        <div class="section" id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Basic Java</li>
+            </ul>
+        </div>
+
+        <div class="section" id="tools">
+            <h2>Tools & Technologies</h2>
+            <ul>
+                <li>VS Code</li>
+                <li>Git & GitHub</li>
+                <li>Chrome Developer Tools</li>
+                <li>Bootstrap</li>
+                <li>Figma (Basic)</li>
+            </ul>
+        </div>
+
+        <div class="section" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Student Information System</strong> – A web-based system to manage student records, grades, and attendance efficiently.
+                </li>
+                <li>
+                    <strong>Inventory Management System</strong> – A system designed to track stock levels, manage products, and generate reports.
+                </li>
+                <li>
+                    <strong>Portfolio Website</strong> – A personal website showcasing my skills, projects, and professional information.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Contact Number:</strong> 09859129315</p>
+                <p><strong>Email:</strong> harleyjadelim20@gmail.com</p>
+                <p><strong>Location:</strong> Upper Combado, Bantayan, Cebu</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
